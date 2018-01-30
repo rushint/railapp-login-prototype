@@ -1,0 +1,13 @@
+/**
+ * Fonts SCSS
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,700');
+
+body {
+  ion-app.app-root {
+    // font-family: 'Montserrat', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.6rem;
+  }
+}

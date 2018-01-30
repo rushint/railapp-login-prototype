@@ -1,0 +1,95 @@
+page-login {
+    .main-content {
+        display: flex;
+        flex-wrap: wrap;
+        min-height: 100%;
+    }
+    .bg-img {
+        background-image: url(../assets/images/bg1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .container-logo {
+        display: inline-block;
+        width: 100%;
+        margin: 20px 0;
+        margin-bottom: 0;
+        img {
+            max-width: 250px;
+        }
+    }
+    .container-bottom {
+        display: inline-flex;
+        flex-wrap: wrap;
+        align-self: center;
+    }
+    .socialLogin {
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+    .facebook {
+        background-color: #3b5998;;
+    }
+    .google{
+        background-color: #d13d35;
+    }
+    .list-md, .list-ios {
+        margin:0 !important;
+    }
+    .list {
+        padding:0 !important;
+    }
+    form {
+        .button-md, .button-ios {
+            margin: 0px !important;
+            background-color: $black;
+            padding: 26px !important;
+        }
+    }
+    .form-bottom-text {
+        display: inline-block;
+        width: 100%;
+    }
+    .form-bottom-text label, a {
+        color: $white;
+    }
+    .errormsg p {
+        background-color: rgba(255,0,0,.3);
+        color: $white;
+        border: 1px solid #FF0000;
+        padding: 5px;
+    }
+    .eye-icon-btn {
+        background-color: transparent !important;
+        color: $black;
+        font-size: 2.2rem !important;
+    }
+    .sepretor-or {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+    .sepretor-or p {
+        color: $white  ;
+        font-size: 16px;
+        text-transform: lowercase;
+    }
+    .sepretor-or p::before, .sepretor-or p::after {
+        float: left;
+        width: -webkit-calc(48% - 10px);
+        width: -moz-calc(48% - 10px);
+        width: calc(48% - 10px);
+        display: inline-block;
+        height: 1px;
+        margin-top: 8px;
+        background-image: url('../assets/imgs/seprator.png');
+        background-repeat: repeat;
+        content: '';
+    }
+    .sepretor-or p::after {
+        float: right;
+    }
+}
+  

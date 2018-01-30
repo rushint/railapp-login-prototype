@@ -1,0 +1,8 @@
+{
+  "name": "railapp-login-prototype",
+  "app_id": "",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
